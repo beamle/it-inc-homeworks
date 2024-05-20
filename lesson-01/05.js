@@ -1,13 +1,15 @@
-let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
+let rule = "Еще не родился тот человек, кавил бы asasassaassasasasaassasasaasasмог бы стать программистом.";
 
-switch (rule.length) {
-    case 25:
+switch (true) {
+    case rule.length === 25:
         console.log("50 на 50");
-        break;
-    case 100:
-        console.log("У меня 100 пудов все получится");
         break;
     case rule.length > 25:
         console.log("Все таки нет правил без исключения");
-    default: ""
+        break;
+    case rule.length === 100:
+        console.log("У меня 100 пудов все получится");
+        break;
+    default:
+        console.log("Все таsasсключения");
 }
