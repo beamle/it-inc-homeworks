@@ -9,5 +9,5 @@ let passportWithAddress = {
 
 let passportWithAddressCopy = { ...passportWithAddress, address: { ...passportWithAddress.address, city: "Bobryisk" } };
 
-console.log(passportWithAddress)
-console.log(passportWithAddressCopy)
+console.log(passportWithAddress.city)
+console.log(passportWithAddressCopy.city)
